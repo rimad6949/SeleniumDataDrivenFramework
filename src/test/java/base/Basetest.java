@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -62,6 +63,32 @@ public class Basetest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
+	}
+	
+	public static void click(String key) {
+		if(key.endsWith("_CSS")) {
+			driver.findElement(By.cssSelector(OR.getProperty(key))).click();
+		}
+		else if(key.endsWith("_XPATH")) {
+			driver.findElement(By.xpath(OR.getProperty(key))).click();
+		}
+		else if(key.endsWith("_ID")) {
+			driver.findElement(By.id(OR.getProperty(key))).click();
+		}
+			
+	}
+	
+	public static void type(String key, String value) {
+		if(key.endsWith("_CSS")) {
+			driver.findElement(By.cssSelector(OR.getProperty(key))).sendKeys(value);
+		}
+		else if(key.endsWith("_XPATH")) {
+			driver.findElement(By.xpath(OR.getProperty(key))).sendKeys(value);
+		}
+		else if(key.endsWith("_ID")) {
+			driver.findElement(By.id(OR.getProperty(key))).sendKeys(value);
+		}
+			
 	}
 	
 	@AfterSuite
