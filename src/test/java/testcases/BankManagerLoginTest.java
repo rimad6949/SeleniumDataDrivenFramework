@@ -10,6 +10,7 @@ public class BankManagerLoginTest extends Basetest{
 	public void clickOnBMLBtn() {
 		
 		click("bmlBtn_CSS");
+		log.info("Clicking on the Bank Manager Login Button");
 		
 	}
 

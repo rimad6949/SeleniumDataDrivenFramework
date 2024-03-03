@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,6 +21,7 @@ public class Basetest {
 	public static Properties config = new Properties();
 	public static Properties OR = new Properties();
 	public static FileInputStream fis;
+	public static Logger log = LogManager.getLogger(Basetest.class.getName());
 	
 	@BeforeSuite
 	public void setup() {
@@ -54,9 +57,11 @@ public class Basetest {
 		
 		if(config.getProperty("browser").equals("chrome")) {
 			driver = new ChromeDriver();
+			log.info("Launching the Chrome Browser");
 		}
 		else if(config.getProperty("browser").equals("firefox")) {
 			driver = new FirefoxDriver();
+			log.info("Launching the Firefox Browser");
 		}
 		
 		driver.get(config.getProperty("testSiteURL"));
@@ -65,7 +70,7 @@ public class Basetest {
 		
 	}
 	
-	public static void click(String key) {
+	public void click(String key) {
 		if(key.endsWith("_CSS")) {
 			driver.findElement(By.cssSelector(OR.getProperty(key))).click();
 		}
@@ -78,7 +83,7 @@ public class Basetest {
 			
 	}
 	
-	public static void type(String key, String value) {
+	public void type(String key, String value) {
 		if(key.endsWith("_CSS")) {
 			driver.findElement(By.cssSelector(OR.getProperty(key))).sendKeys(value);
 		}
@@ -96,6 +101,7 @@ public class Basetest {
 		
 		if(driver != null) {
 			driver.quit();
+			log.info("Closing the Browser");
 		}
 		
 	}

@@ -1,0 +1,3 @@
+2024-03-02 16:47:49 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-02 16:47:52 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-02 16:47:52 [main] INFO  base.Basetest - Quiting the Browser
