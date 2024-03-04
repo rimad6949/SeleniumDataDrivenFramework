@@ -9,9 +9,10 @@ https://www.way2automation.com/angularjs-protractor/banking/#/login
  * WebDriver
  * TestNG
  * Log4j
+ * Integrate with Jenkins
  * Extent
  * Screenshot
- * Propertieshhh
+ * Properties
  * Keywords
  * Database
  * JavaMail
