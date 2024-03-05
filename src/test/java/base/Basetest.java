@@ -31,7 +31,7 @@ public class Basetest {
 	
 	@BeforeSuite
 	public void setup() {
-		
+		//driver == null - This means if browser is not open then call the properties and open the browser
 		if(driver == null) {
 			
 			try {
