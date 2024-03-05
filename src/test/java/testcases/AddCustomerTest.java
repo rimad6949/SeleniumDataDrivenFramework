@@ -7,6 +7,7 @@ import utilities.DataUtil;
 
 public class AddCustomerTest extends Basetest{
 	
+	//We are using the utility class so that we can write create a static method inside a class eg:- DataUtil and the class across an application
 	@Test(dataProviderClass = DataUtil.class, dataProvider="dp")
 	public void addCustomer(String FirstName, String LastName, String PostCode) {
 		
