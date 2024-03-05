@@ -1,6 +1,5 @@
 package base;
 
-import org.testng.annotations.AfterMethod;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -12,9 +11,12 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
+
+import utilities.ExcelReader;
 
 public class Basetest {
 	
@@ -23,6 +25,9 @@ public class Basetest {
 	public static Properties OR = new Properties();
 	public static FileInputStream fis;
 	public static Logger log = LogManager.getLogger(Basetest.class.getName());
+	public static ExcelReader excel = new ExcelReader("/Users/rimadas/git/SeleniumDataDrivenFramework/src/test/resources/excel/testdata.xlsx");
+	public static ChromeOptions ops = new ChromeOptions();
+    
 	
 	@BeforeSuite
 	public void setup() {
@@ -57,7 +62,8 @@ public class Basetest {
 		}
 		
 		if(config.getProperty("browser").equals("chrome")) {
-			driver = new ChromeDriver();
+			ops.addArguments("--disable-notifications");
+			driver = new ChromeDriver(ops);
 			log.info("Launching the Chrome Browser");
 		}
 		else if(config.getProperty("browser").equals("firefox")) {

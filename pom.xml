@@ -78,34 +78,40 @@
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
-			<version>4.0.1</version>
+			<version>4.1.0</version>
 		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml</artifactId>
-			<version>4.0.1</version>
+			<version>4.1.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.dom4j/dom4j -->
+
+		<!-- https://mvnrepository.com/artifact/dom4j/dom4j -->
 		<dependency>
-			<groupId>org.dom4j</groupId>
+			<groupId>dom4j</groupId>
 			<artifactId>dom4j</artifactId>
-			<version>2.1.1</version>
+			<version>1.6.1</version>
 		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/org.apache.xmlbeans/xmlbeans -->
 		<dependency>
 			<groupId>org.apache.xmlbeans</groupId>
 			<artifactId>xmlbeans</artifactId>
-			<version>5.0.0</version>
+			<version>3.1.0</version>
 		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml-schemas -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi-ooxml-schemas</artifactId>
-			<version>4.1.2</version>
+			<version>4.1.0</version>
 		</dependency>
-		<!--
-		https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
+		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
 		<dependency>
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-collections4</artifactId>

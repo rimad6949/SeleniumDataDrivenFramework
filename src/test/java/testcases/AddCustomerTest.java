@@ -2,19 +2,21 @@ package testcases;
 
 import org.testng.annotations.Test;
 
-
 import base.Basetest;
+import utilities.DataUtil;
 
 public class AddCustomerTest extends Basetest{
 	
-	@Test
-	public void addCustomer() {
+	@Test(dataProviderClass = DataUtil.class, dataProvider="dp")
+	public void addCustomer(String FirstName, String LastName, String PostCode) {
 		
 		click("addCustBtn_CSS");
-		type("firstName_CSS", "Rima");
-		type("lastName_CSS", "Das");
-		type("postCode_CSS", "12123");
+		log.info("Clicking on the Add Customer button");
+		type("firstName_CSS", FirstName);
+		type("lastName_CSS", LastName);
+		type("postCode_CSS", PostCode);
 		click("addBtn_CSS");
+		driver.switchTo().alert().accept();
 	}
 
 }
