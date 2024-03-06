@@ -12,3 +12,356 @@
 2024-03-02 16:58:12 [main] INFO  base.Basetest - Launching the Chrome Browser
 2024-03-02 16:58:15 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
 2024-03-02 16:58:16 [main] INFO  base.Basetest - Closing the Browser
+2024-03-04 15:00:21 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-04 15:00:24 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-04 15:00:25 [main] INFO  base.Basetest - Closing the Browser
+2024-03-04 17:08:59 [main] WARN  org.apache.xmlbeans.impl.common.SAXHelper - SAX Security Manager could not be setup [log suppressed for 5 minutes]
+java.lang.ClassNotFoundException: org.apache.xerces.util.SecurityManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:315) ~[?:?]
+	at org.apache.xmlbeans.impl.common.SAXHelper.trySetXercesSecurityManager(SAXHelper.java:98) ~[xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.common.SAXHelper.newXMLReader(SAXHelper.java:50) ~[xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.store.Locale.getSaxLoader(Locale.java:2229) ~[xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.store.Locale.lambda$parseToXmlObject$3(Locale.java:715) ~[xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.store.Locale.syncWrap(Locale.java:488) [xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:714) [xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:233) [xmlbeans-5.0.0.jar:?]
+	at org.openxmlformats.schemas.drawingml.x2006.main.ThemeDocument$Factory.parse(Unknown Source) [poi-ooxml-schemas-4.1.2.jar:4.1.2]
+	at org.apache.poi.xssf.model.ThemesTable.<init>(ThemesTable.java:86) [poi-ooxml-4.0.1.jar:4.0.1]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) [?:?]
+	at org.apache.poi.xssf.usermodel.XSSFFactory.createDocumentPart(XSSFFactory.java:56) [poi-ooxml-4.0.1.jar:4.0.1]
+	at org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:63) [poi-ooxml-4.0.1.jar:4.0.1]
+	at org.apache.poi.ooxml.POIXMLDocumentPart.read(POIXMLDocumentPart.java:657) [poi-ooxml-4.0.1.jar:4.0.1]
+	at org.apache.poi.ooxml.POIXMLDocument.load(POIXMLDocument.java:180) [poi-ooxml-4.0.1.jar:4.0.1]
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:286) [poi-ooxml-4.0.1.jar:4.0.1]
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:307) [poi-ooxml-4.0.1.jar:4.0.1]
+	at utilities.ExcelReader.<init>(ExcelReader.java:41) [test-classes/:?]
+	at base.Basetest.<clinit>(Basetest.java:26) [test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) [?:?]
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:24) [testng-6.14.3.jar:?]
+	at org.testng.internal.ClassHelper.createInstance1(ClassHelper.java:423) [testng-6.14.3.jar:?]
+	at org.testng.internal.ClassHelper.createInstance(ClassHelper.java:336) [testng-6.14.3.jar:?]
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:125) [testng-6.14.3.jar:?]
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:190) [testng-6.14.3.jar:?]
+	at org.testng.TestClass.getInstances(TestClass.java:95) [testng-6.14.3.jar:?]
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:81) [testng-6.14.3.jar:?]
+	at org.testng.TestClass.init(TestClass.java:73) [testng-6.14.3.jar:?]
+	at org.testng.TestClass.<init>(TestClass.java:38) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.initMethods(TestRunner.java:389) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.init(TestRunner.java:271) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.init(TestRunner.java:241) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.<init>(TestRunner.java:192) [testng-6.14.3.jar:?]
+	at org.testng.remote.support.RemoteTestNG6_12$1.newTestRunner(RemoteTestNG6_12.java:33) [testng-remote.jar:?]
+	at org.testng.remote.support.RemoteTestNG6_12$DelegatingTestRunnerFactory.newTestRunner(RemoteTestNG6_12.java:66) [testng-remote.jar:?]
+	at org.testng.SuiteRunner$ProxyTestRunnerFactory.newTestRunner(SuiteRunner.java:713) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-03-04 17:17:56 [main] WARN  org.apache.xmlbeans.impl.common.SAXHelper - SAX Security Manager could not be setup [log suppressed for 5 minutes]
+java.lang.ClassNotFoundException: org.apache.xerces.util.SecurityManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:315) ~[?:?]
+	at org.apache.xmlbeans.impl.common.SAXHelper.trySetXercesSecurityManager(SAXHelper.java:98) ~[xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.common.SAXHelper.newXMLReader(SAXHelper.java:50) ~[xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.store.Locale.getSaxLoader(Locale.java:2229) ~[xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.store.Locale.lambda$parseToXmlObject$3(Locale.java:715) ~[xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.store.Locale.syncWrap(Locale.java:488) [xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:714) [xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:233) [xmlbeans-5.0.0.jar:?]
+	at org.openxmlformats.schemas.drawingml.x2006.main.ThemeDocument$Factory.parse(Unknown Source) [poi-ooxml-schemas-4.1.2.jar:4.1.2]
+	at org.apache.poi.xssf.model.ThemesTable.<init>(ThemesTable.java:86) [poi-ooxml-4.1.0.jar:4.1.0]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) [?:?]
+	at org.apache.poi.xssf.usermodel.XSSFFactory.createDocumentPart(XSSFFactory.java:56) [poi-ooxml-4.1.0.jar:4.1.0]
+	at org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:63) [poi-ooxml-4.1.0.jar:4.1.0]
+	at org.apache.poi.ooxml.POIXMLDocumentPart.read(POIXMLDocumentPart.java:657) [poi-ooxml-4.1.0.jar:4.1.0]
+	at org.apache.poi.ooxml.POIXMLDocument.load(POIXMLDocument.java:180) [poi-ooxml-4.1.0.jar:4.1.0]
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:282) [poi-ooxml-4.1.0.jar:4.1.0]
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:303) [poi-ooxml-4.1.0.jar:4.1.0]
+	at utilities.ExcelReader.<init>(ExcelReader.java:40) [test-classes/:?]
+	at base.Basetest.<clinit>(Basetest.java:26) [test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) [?:?]
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:24) [testng-6.14.3.jar:?]
+	at org.testng.internal.ClassHelper.createInstance1(ClassHelper.java:423) [testng-6.14.3.jar:?]
+	at org.testng.internal.ClassHelper.createInstance(ClassHelper.java:336) [testng-6.14.3.jar:?]
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:125) [testng-6.14.3.jar:?]
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:190) [testng-6.14.3.jar:?]
+	at org.testng.TestClass.getInstances(TestClass.java:95) [testng-6.14.3.jar:?]
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:81) [testng-6.14.3.jar:?]
+	at org.testng.TestClass.init(TestClass.java:73) [testng-6.14.3.jar:?]
+	at org.testng.TestClass.<init>(TestClass.java:38) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.initMethods(TestRunner.java:389) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.init(TestRunner.java:271) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.init(TestRunner.java:241) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.<init>(TestRunner.java:192) [testng-6.14.3.jar:?]
+	at org.testng.remote.support.RemoteTestNG6_12$1.newTestRunner(RemoteTestNG6_12.java:33) [testng-remote.jar:?]
+	at org.testng.remote.support.RemoteTestNG6_12$DelegatingTestRunnerFactory.newTestRunner(RemoteTestNG6_12.java:66) [testng-remote.jar:?]
+	at org.testng.SuiteRunner$ProxyTestRunnerFactory.newTestRunner(SuiteRunner.java:713) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-03-04 17:28:22 [main] WARN  org.apache.xmlbeans.impl.common.SAXHelper - SAX Security Manager could not be setup [log suppressed for 5 minutes]
+java.lang.ClassNotFoundException: org.apache.xerces.util.SecurityManager
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581) ~[?:?]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178) ~[?:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.base/java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.base/java.lang.Class.forName(Class.java:315) ~[?:?]
+	at org.apache.xmlbeans.impl.common.SAXHelper.trySetXercesSecurityManager(SAXHelper.java:98) ~[xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.common.SAXHelper.newXMLReader(SAXHelper.java:50) ~[xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.store.Locale.getSaxLoader(Locale.java:2229) ~[xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.store.Locale.lambda$parseToXmlObject$3(Locale.java:715) ~[xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.store.Locale.syncWrap(Locale.java:488) [xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.store.Locale.parseToXmlObject(Locale.java:714) [xmlbeans-5.0.0.jar:?]
+	at org.apache.xmlbeans.impl.schema.SchemaTypeLoaderBase.parse(SchemaTypeLoaderBase.java:233) [xmlbeans-5.0.0.jar:?]
+	at org.openxmlformats.schemas.drawingml.x2006.main.ThemeDocument$Factory.parse(Unknown Source) [poi-ooxml-schemas-4.1.2.jar:4.1.2]
+	at org.apache.poi.xssf.model.ThemesTable.<init>(ThemesTable.java:86) [poi-ooxml-4.1.0.jar:4.1.0]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) [?:?]
+	at org.apache.poi.xssf.usermodel.XSSFFactory.createDocumentPart(XSSFFactory.java:56) [poi-ooxml-4.1.0.jar:4.1.0]
+	at org.apache.poi.ooxml.POIXMLFactory.createDocumentPart(POIXMLFactory.java:63) [poi-ooxml-4.1.0.jar:4.1.0]
+	at org.apache.poi.ooxml.POIXMLDocumentPart.read(POIXMLDocumentPart.java:657) [poi-ooxml-4.1.0.jar:4.1.0]
+	at org.apache.poi.ooxml.POIXMLDocument.load(POIXMLDocument.java:180) [poi-ooxml-4.1.0.jar:4.1.0]
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:282) [poi-ooxml-4.1.0.jar:4.1.0]
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:303) [poi-ooxml-4.1.0.jar:4.1.0]
+	at utilities.ExcelReader.<init>(ExcelReader.java:40) [test-classes/:?]
+	at base.Basetest.<clinit>(Basetest.java:26) [test-classes/:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) [?:?]
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) [?:?]
+	at org.testng.internal.ObjectFactoryImpl.newInstance(ObjectFactoryImpl.java:24) [testng-6.14.3.jar:?]
+	at org.testng.internal.ClassHelper.createInstance1(ClassHelper.java:423) [testng-6.14.3.jar:?]
+	at org.testng.internal.ClassHelper.createInstance(ClassHelper.java:336) [testng-6.14.3.jar:?]
+	at org.testng.internal.ClassImpl.getDefaultInstance(ClassImpl.java:125) [testng-6.14.3.jar:?]
+	at org.testng.internal.ClassImpl.getInstances(ClassImpl.java:190) [testng-6.14.3.jar:?]
+	at org.testng.TestClass.getInstances(TestClass.java:95) [testng-6.14.3.jar:?]
+	at org.testng.TestClass.initTestClassesAndInstances(TestClass.java:81) [testng-6.14.3.jar:?]
+	at org.testng.TestClass.init(TestClass.java:73) [testng-6.14.3.jar:?]
+	at org.testng.TestClass.<init>(TestClass.java:38) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.initMethods(TestRunner.java:389) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.init(TestRunner.java:271) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.init(TestRunner.java:241) [testng-6.14.3.jar:?]
+	at org.testng.TestRunner.<init>(TestRunner.java:192) [testng-6.14.3.jar:?]
+	at org.testng.remote.support.RemoteTestNG6_12$1.newTestRunner(RemoteTestNG6_12.java:33) [testng-remote.jar:?]
+	at org.testng.remote.support.RemoteTestNG6_12$DelegatingTestRunnerFactory.newTestRunner(RemoteTestNG6_12.java:66) [testng-remote.jar:?]
+	at org.testng.SuiteRunner$ProxyTestRunnerFactory.newTestRunner(SuiteRunner.java:713) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.init(SuiteRunner.java:260) [testng-6.14.3.jar:?]
+	at org.testng.SuiteRunner.<init>(SuiteRunner.java:198) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.createSuiteRunner(TestNG.java:1295) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.createSuiteRunners(TestNG.java:1273) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1128) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.runSuites(TestNG.java:1049) [testng-6.14.3.jar:?]
+	at org.testng.TestNG.run(TestNG.java:1017) [testng-6.14.3.jar:?]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+2024-03-04 17:31:51 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-04 17:31:54 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-04 17:31:54 [main] INFO  base.Basetest - Closing the Browser
+2024-03-04 17:43:50 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-04 17:43:53 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-04 17:43:53 [main] INFO  base.Basetest - Closing the Browser
+2024-03-04 17:45:42 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-04 17:45:45 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-04 17:45:48 [main] INFO  base.Basetest - Closing the Browser
+2024-03-04 17:48:15 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-04 17:48:18 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-04 17:48:21 [main] INFO  base.Basetest - Closing the Browser
+2024-03-04 17:54:42 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-04 17:54:45 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-04 17:54:48 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-04 17:54:49 [main] INFO  base.Basetest - Closing the Browser
+2024-03-04 17:56:46 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-04 17:56:48 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-04 17:56:49 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-04 17:56:51 [main] INFO  base.Basetest - Closing the Browser
+2024-03-04 22:28:10 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-04 22:28:13 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-04 22:28:13 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-04 22:28:16 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-04 22:28:18 [main] INFO  base.Basetest - Closing the Browser
+2024-03-04 22:30:05 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-04 22:30:08 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-04 22:30:08 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-04 22:30:11 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-04 22:30:13 [main] INFO  base.Basetest - Closing the Browser
+2024-03-04 22:34:11 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-04 22:34:14 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-04 22:34:14 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-04 22:34:17 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-04 22:34:19 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-04 22:34:20 [main] INFO  base.Basetest - Closing the Browser
+2024-03-04 22:41:31 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-04 22:41:34 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-04 22:41:34 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-04 22:41:35 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-04 22:41:35 [main] INFO  base.Basetest - Closing the Browser
+2024-03-04 22:52:23 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-04 22:52:34 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-04 22:52:35 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-04 22:52:35 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-04 22:52:36 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 09:57:03 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 09:57:06 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 09:57:06 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 09:57:49 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 09:57:52 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 09:57:52 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 11:07:54 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 11:07:57 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 11:07:57 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 11:08:34 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 11:08:37 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 11:08:37 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 11:09:17 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 11:09:19 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 11:09:19 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 11:11:23 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 11:11:25 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 11:11:26 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 11:14:11 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 11:14:13 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 11:14:14 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 11:17:31 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 11:17:34 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 11:17:35 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 11:24:50 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 11:24:53 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 11:24:53 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:24:54 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:24:54 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 11:27:04 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 11:27:07 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 11:27:07 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:27:08 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 11:29:55 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 11:29:58 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 11:29:58 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:29:59 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:29:59 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 11:36:46 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 11:36:49 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 11:36:49 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:36:50 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:36:50 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 11:38:09 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 11:38:12 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 11:38:12 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:38:13 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:38:13 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 11:41:31 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 11:41:34 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 11:41:35 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:41:38 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:41:42 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 11:43:06 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 11:43:08 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 11:43:09 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:43:12 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:43:16 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:43:19 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 11:43:22 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 14:42:21 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 14:42:24 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 14:42:24 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:42:25 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:42:25 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:42:25 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:42:26 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 14:43:47 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 14:43:49 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 14:43:50 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:43:50 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:43:51 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:43:51 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:43:51 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 14:45:39 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 14:45:42 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 14:45:43 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:45:43 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:45:44 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:45:44 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:45:44 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 14:48:23 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 14:48:26 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 14:48:26 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:48:27 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:48:27 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:48:27 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 14:48:28 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 15:26:08 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 15:26:11 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 15:26:12 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 15:26:13 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 15:26:13 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 15:26:13 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 15:26:14 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 15:33:36 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 15:33:39 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 15:33:40 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 15:33:41 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 15:33:41 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 15:33:42 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 15:33:42 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 18:02:42 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 18:02:45 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 18:02:45 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:02:46 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:02:46 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:02:46 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:02:47 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 18:15:21 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 18:15:24 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 18:15:24 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:15:25 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:15:25 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:15:26 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:15:26 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 18:16:27 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 18:16:30 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 18:16:30 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:16:31 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:16:31 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:16:32 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:16:32 [main] INFO  base.Basetest - Closing the Browser
+2024-03-05 18:26:13 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-05 18:26:16 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-05 18:26:16 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:26:17 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:26:17 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:26:18 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-05 18:26:18 [main] INFO  base.Basetest - Closing the Browser
