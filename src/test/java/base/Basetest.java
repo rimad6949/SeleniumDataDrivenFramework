@@ -16,6 +16,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
+import com.aventstack.extentreports.Status;
+
+import extentlisteners.ExtentListeners;
 import utilities.ExcelReader;
 
 public class Basetest {
@@ -87,6 +90,8 @@ public class Basetest {
 		else if(key.endsWith("_ID")) {
 			driver.findElement(By.id(OR.getProperty(key))).click();
 		}
+		log.info("Clicking on the element : " + key);
+		ExtentListeners.test.log(Status.INFO, "Clicking on the element : " + key);
 			
 	}
 	
@@ -100,7 +105,36 @@ public class Basetest {
 		else if(key.endsWith("_ID")) {
 			driver.findElement(By.id(OR.getProperty(key))).sendKeys(value);
 		}
+		log.info("Clicking on the element : "+key+ " and entering value : "+value);
+		ExtentListeners.test.log(Status.INFO, "Clicking on the element : "+key+ " and entering value : "+value);
 			
+	}
+	
+	public boolean isElementPresent(String key) {
+		try {
+			if(key.endsWith("_CSS")) {
+				driver.findElement(By.cssSelector(OR.getProperty(key)));
+			}
+			else if(key.endsWith("_XPATH")) {
+				driver.findElement(By.xpath(OR.getProperty(key)));
+			}
+			else if(key.endsWith("_ID")) {
+				driver.findElement(By.id(OR.getProperty(key)));
+			}
+			
+			log.info("Find an element : "+key);
+			ExtentListeners.test.log(Status.INFO, "Finding an element : "+ key);
+			
+			return true;
+		}
+		catch(Throwable t){
+			
+			log.error("Error while find an element : "+key+" The error log is : "+t.getStackTrace());
+			ExtentListeners.test.log(Status.INFO, "Error while find an element : "+key+" The error log is : "+t.getStackTrace());	
+			
+			return false;
+		}		
+		
 	}
 	
 	@AfterSuite
