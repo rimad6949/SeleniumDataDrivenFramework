@@ -365,3 +365,137 @@ java.lang.ClassNotFoundException: org.apache.xerces.util.SecurityManager
 2024-03-05 18:26:17 [main] INFO  base.Basetest - Clicking on the Add Customer button
 2024-03-05 18:26:18 [main] INFO  base.Basetest - Clicking on the Add Customer button
 2024-03-05 18:26:18 [main] INFO  base.Basetest - Closing the Browser
+2024-03-06 09:59:29 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-06 09:59:32 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-06 09:59:32 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 09:59:33 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 09:59:33 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 09:59:34 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 09:59:34 [main] INFO  base.Basetest - Closing the Browser
+2024-03-06 17:07:47 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-06 17:07:49 [main] INFO  base.Basetest - Clicking on the element : bmlBtn_CSS
+2024-03-06 17:07:49 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-06 17:07:50 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-06 17:07:50 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 17:07:50 [main] INFO  base.Basetest - Clicking on the element : firstName_SS and entering value : Rima
+2024-03-06 17:07:50 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Das
+2024-03-06 17:07:50 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 98980.0
+2024-03-06 17:07:50 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-06 17:09:03 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-06 17:09:06 [main] INFO  base.Basetest - Clicking on the element : bmlBtn_CSS
+2024-03-06 17:09:06 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-06 17:09:06 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CS
+2024-03-06 17:09:06 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:01:17 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-06 20:01:21 [main] INFO  base.Basetest - Clicking on the element : bmlBtn_CSS
+2024-03-06 20:01:21 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-06 20:01:21 [main] INFO  base.Basetest - Find an element : addCustBtn_CSS
+2024-03-06 20:01:22 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-06 20:01:22 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:01:22 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Rima
+2024-03-06 20:01:22 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Das
+2024-03-06 20:01:22 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 98980.0
+2024-03-06 20:01:22 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Animesh
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Das
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 7879.0
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Jyotsna
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Das
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 87879.0
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Dulal
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Das
+2024-03-06 20:01:23 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 79808.0
+2024-03-06 20:01:24 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-06 20:01:24 [main] INFO  base.Basetest - Closing the Browser
+2024-03-06 20:01:43 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-06 20:01:46 [main] INFO  base.Basetest - Clicking on the element : bmlBtn_CSS
+2024-03-06 20:01:46 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-06 20:01:46 [main] INFO  base.Basetest - Find an element : addCustBtn_CSS
+2024-03-06 20:01:47 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CS
+2024-03-06 20:01:47 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:01:58 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CS
+2024-03-06 20:01:58 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:02:08 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CS
+2024-03-06 20:02:08 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:02:18 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CS
+2024-03-06 20:02:18 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:02:29 [main] INFO  base.Basetest - Closing the Browser
+2024-03-06 20:06:15 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-06 20:06:18 [main] INFO  base.Basetest - Clicking on the element : bmlBtn_CSS
+2024-03-06 20:06:19 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-06 20:06:19 [main] INFO  base.Basetest - Find an element : addCustBtn_CSS
+2024-03-06 20:06:20 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CS
+2024-03-06 20:06:20 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:06:30 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CS
+2024-03-06 20:06:30 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:06:41 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CS
+2024-03-06 20:06:41 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:06:51 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CS
+2024-03-06 20:06:51 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:07:02 [main] INFO  base.Basetest - Closing the Browser
+2024-03-06 20:08:17 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-06 20:08:20 [main] INFO  base.Basetest - Clicking on the element : bmlBtn_CSS
+2024-03-06 20:08:20 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-06 20:08:20 [main] INFO  base.Basetest - Find an element : addCustBtn_CSS
+2024-03-06 20:08:21 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-06 20:08:21 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:08:22 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Rima
+2024-03-06 20:08:22 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Das
+2024-03-06 20:08:22 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 98980.0
+2024-03-06 20:08:22 [main] INFO  base.Basetest - Clicking on the element : addBtn_CS
+2024-03-06 20:08:23 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-06 20:08:23 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:08:23 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Animesh
+2024-03-06 20:08:23 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Das
+2024-03-06 20:08:23 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 7879.0
+2024-03-06 20:08:23 [main] INFO  base.Basetest - Clicking on the element : addBtn_CS
+2024-03-06 20:08:24 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-06 20:08:24 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:08:24 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Jyotsna
+2024-03-06 20:08:24 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Das
+2024-03-06 20:08:24 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 87879.0
+2024-03-06 20:08:24 [main] INFO  base.Basetest - Clicking on the element : addBtn_CS
+2024-03-06 20:08:24 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-06 20:08:24 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:08:24 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Dulal
+2024-03-06 20:08:25 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Das
+2024-03-06 20:08:25 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 79808.0
+2024-03-06 20:08:25 [main] INFO  base.Basetest - Clicking on the element : addBtn_CS
+2024-03-06 20:08:25 [main] INFO  base.Basetest - Closing the Browser
+2024-03-06 20:11:28 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-06 20:11:31 [main] INFO  base.Basetest - Clicking on the element : bmlBtn_CSS
+2024-03-06 20:11:31 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-06 20:11:31 [main] INFO  base.Basetest - Find an element : addCustBtn_CSS
+2024-03-06 20:11:32 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-06 20:11:32 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:11:33 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Rima
+2024-03-06 20:11:33 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Das
+2024-03-06 20:11:33 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 98980.0
+2024-03-06 20:11:33 [main] INFO  base.Basetest - Clicking on the element : addBtn_CS
+2024-03-06 20:11:33 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-06 20:11:33 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:11:33 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Animesh
+2024-03-06 20:11:33 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Das
+2024-03-06 20:11:34 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 7879.0
+2024-03-06 20:11:34 [main] INFO  base.Basetest - Clicking on the element : addBtn_CS
+2024-03-06 20:11:34 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-06 20:11:34 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:11:34 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Jyotsna
+2024-03-06 20:11:34 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Das
+2024-03-06 20:11:34 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 87879.0
+2024-03-06 20:11:34 [main] INFO  base.Basetest - Clicking on the element : addBtn_CS
+2024-03-06 20:11:35 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-06 20:11:35 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-06 20:11:35 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Dulal
+2024-03-06 20:11:35 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Das
+2024-03-06 20:11:35 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 79808.0
+2024-03-06 20:11:35 [main] INFO  base.Basetest - Clicking on the element : addBtn_CS
+2024-03-06 20:11:36 [main] INFO  base.Basetest - Closing the Browser

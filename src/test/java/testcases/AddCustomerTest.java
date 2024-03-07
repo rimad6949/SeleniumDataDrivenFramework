@@ -16,7 +16,7 @@ public class AddCustomerTest extends Basetest{
 		type("firstName_CSS", FirstName);
 		type("lastName_CSS", LastName);
 		type("postCode_CSS", PostCode);
-		click("addBtn_CSS");
+		click("addBtn_CS");
 		driver.switchTo().alert().accept();
 	}
 
