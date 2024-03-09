@@ -19,12 +19,13 @@ public class ScreenshotUtil extends Basetest{
 		
 		Date d = new Date();
 		
-		fileName = d.toString().replace(" ", "_").replace(":", "_");
+		fileName = d.toString().replace(":", "_").replace(" ", "_") + ".jpg";
 		
 		File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		
 		try {
-			FileUtils.copyFile(screenshot, new File("/Users/rimadas/eclipse-workspace/SeleniumDataDrivenFramework/target/reports"+ fileName));
+			FileUtils.copyFile(screenshot, new File("/Users/rimadas/eclipse-workspace/SeleniumDataDrivenFramework/target/reports/"+ fileName));
+			FileUtils.copyFile(screenshot, new File("/Users/rimadas/eclipse-workspace/SeleniumDataDrivenFramework/target/surefire-reports/html/" + fileName));
 	
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -36,12 +37,12 @@ public class ScreenshotUtil extends Basetest{
 		
 		Date d = new Date();
 		
-		String fileName = d.toString().replace(" ", "_").replace(":", "_");
+		String fileName = d.toString().replace(":", "_").replace(" ", "_") + ".jpg";
 		
 		File screenshot = ((TakesScreenshot) element).getScreenshotAs(OutputType.FILE);
 		
 		try {
-			FileUtils.copyDirectory(screenshot, new File("/Users/rimadas/eclipse-workspace/SeleniumDataDrivenFramework/Screenshot" + fileName));
+			FileUtils.copyDirectory(screenshot, new File(System.getProperty("user.dir") + "/screenshot/" + fileName));
 		} catch (IOException e) {
 			
 			e.printStackTrace();

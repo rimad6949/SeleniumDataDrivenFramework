@@ -18,15 +18,13 @@ public class OpenAccountTest extends Basetest{
 		select("customer_CSS",customer);
 		
 		select("currency_CSS",currency);
-		Thread.sleep(3000);
 		click("process_CSS");	
 		
 		Alert alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("Account created successfully"),"Account not created successfully");
 		alert.accept();
-		Thread.sleep(3000);
 		
-		
+		Assert.fail();
 	}
 
 }

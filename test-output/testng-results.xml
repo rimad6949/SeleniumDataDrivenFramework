@@ -1,21 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="5" failed="4" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[<a href=Sat_Mar_09_10_49_40_PST_2024.jpg target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Sat_Mar_09_10_49_40_PST_2024.jpg target="_blank"><img src=Sat_Mar_09_10_49_40_PST_2024.jpg height=200 width=200></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Sat_Mar_09_10_49_40_PST_2024.jpg target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Sat_Mar_09_10_49_40_PST_2024.jpg target="_blank"><img src=Sat_Mar_09_10_49_40_PST_2024.jpg height=200 width=200></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Sat_Mar_09_10_49_41_PST_2024.jpg target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Sat_Mar_09_10_49_41_PST_2024.jpg target="_blank"><img src=Sat_Mar_09_10_49_41_PST_2024.jpg height=200 width=200></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Sat_Mar_09_10_49_42_PST_2024.jpg target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Sat_Mar_09_10_49_42_PST_2024.jpg target="_blank"><img src=Sat_Mar_09_10_49_42_PST_2024.jpg height=200 width=200></a>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-03-09T00:37:36Z" name="Suite" finished-at="2024-03-09T00:38:05Z" duration-ms="29880">
+  <suite started-at="2024-03-09T18:49:34Z" name="Suite" finished-at="2024-03-09T18:49:42Z" duration-ms="7992">
     <groups>
     </groups>
-    <test started-at="2024-03-09T00:37:36Z" name="BankManagerLoginTest" finished-at="2024-03-09T00:37:38Z" duration-ms="2583">
+    <test started-at="2024-03-09T18:49:34Z" name="BankManagerLoginTest" finished-at="2024-03-09T18:49:37Z" duration-ms="2556">
       <class name="testcases.BankManagerLoginTest">
-        <test-method signature="clickOnBMLBtn()[pri:0, instance:testcases.BankManagerLoginTest@328902d5]" started-at="2024-03-09T00:37:36Z" name="clickOnBMLBtn" finished-at="2024-03-09T00:37:38Z" duration-ms="2569" status="PASS">
+        <test-method signature="clickOnBMLBtn()[pri:0, instance:testcases.BankManagerLoginTest@3157e4c0]" started-at="2024-03-09T18:49:34Z" name="clickOnBMLBtn" finished-at="2024-03-09T18:49:37Z" duration-ms="2539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnBMLBtn -->
       </class> <!-- testcases.BankManagerLoginTest -->
     </test> <!-- BankManagerLoginTest -->
-    <test started-at="2024-03-09T00:37:38Z" name="AddCustomerTest" finished-at="2024-03-09T00:37:40Z" duration-ms="1692">
+    <test started-at="2024-03-09T18:49:37Z" name="AddCustomerTest" finished-at="2024-03-09T18:49:39Z" duration-ms="2011">
       <class name="testcases.AddCustomerTest">
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@73ad7e90]" started-at="2024-03-09T00:37:38Z" name="addCustomer" data-provider="dp" finished-at="2024-03-09T00:37:39Z" duration-ms="723" status="PASS">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@c6634d]" started-at="2024-03-09T18:49:37Z" name="addCustomer" data-provider="dp" finished-at="2024-03-09T18:49:38Z" duration-ms="1079" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -36,7 +72,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@73ad7e90]" started-at="2024-03-09T00:37:39Z" name="addCustomer" data-provider="dp" finished-at="2024-03-09T00:37:40Z" duration-ms="341" status="PASS">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@c6634d]" started-at="2024-03-09T18:49:38Z" name="addCustomer" data-provider="dp" finished-at="2024-03-09T18:49:38Z" duration-ms="314" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,7 +93,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@73ad7e90]" started-at="2024-03-09T00:37:40Z" name="addCustomer" data-provider="dp" finished-at="2024-03-09T00:37:40Z" duration-ms="305" status="PASS">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@c6634d]" started-at="2024-03-09T18:49:38Z" name="addCustomer" data-provider="dp" finished-at="2024-03-09T18:49:39Z" duration-ms="295" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -78,7 +114,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCustomer -->
-        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@73ad7e90]" started-at="2024-03-09T00:37:40Z" name="addCustomer" data-provider="dp" finished-at="2024-03-09T00:37:40Z" duration-ms="300" status="PASS">
+        <test-method signature="addCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.AddCustomerTest@c6634d]" started-at="2024-03-09T18:49:39Z" name="addCustomer" data-provider="dp" finished-at="2024-03-09T18:49:39Z" duration-ms="298" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -101,13 +137,13 @@
         </test-method> <!-- addCustomer -->
       </class> <!-- testcases.AddCustomerTest -->
     </test> <!-- AddCustomerTest -->
-    <test started-at="2024-03-09T00:37:40Z" name="OpenAccountTest" finished-at="2024-03-09T00:38:05Z" duration-ms="25252">
+    <test started-at="2024-03-09T18:49:39Z" name="OpenAccountTest" finished-at="2024-03-09T18:49:42Z" duration-ms="3151">
       <class name="testcases.OpenAccountTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.OpenAccountTest@b965857]" started-at="2024-03-09T00:37:31Z" name="setup" finished-at="2024-03-09T00:37:36Z" duration-ms="4433" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.OpenAccountTest@4ce14f05]" started-at="2024-03-09T18:49:27Z" name="setup" finished-at="2024-03-09T18:49:34Z" duration-ms="7379" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="openAccount(java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenAccountTest@b965857]" started-at="2024-03-09T00:37:40Z" name="openAccount" data-provider="dp" finished-at="2024-03-09T00:37:47Z" duration-ms="6588" status="PASS">
+        <test-method signature="openAccount(java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenAccountTest@4ce14f05]" started-at="2024-03-09T18:49:39Z" name="openAccount" data-provider="dp" finished-at="2024-03-09T18:49:40Z" duration-ms="633" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -120,10 +156,56 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at testcases.OpenAccountTest.openAccount(OpenAccountTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[<a href=Sat_Mar_09_10_49_40_PST_2024.jpg target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=Sat_Mar_09_10_49_40_PST_2024.jpg target="_blank"><img src=Sat_Mar_09_10_49_40_PST_2024.jpg height=200 width=200></a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openAccount -->
-        <test-method signature="openAccount(java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenAccountTest@b965857]" started-at="2024-03-09T00:37:47Z" name="openAccount" data-provider="dp" finished-at="2024-03-09T00:37:53Z" duration-ms="6219" status="PASS">
+        <test-method signature="openAccount(java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenAccountTest@4ce14f05]" started-at="2024-03-09T18:49:40Z" name="openAccount" data-provider="dp" finished-at="2024-03-09T18:49:40Z" duration-ms="223" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -136,10 +218,56 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at testcases.OpenAccountTest.openAccount(OpenAccountTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[<a href=Sat_Mar_09_10_49_40_PST_2024.jpg target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=Sat_Mar_09_10_49_40_PST_2024.jpg target="_blank"><img src=Sat_Mar_09_10_49_40_PST_2024.jpg height=200 width=200></a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openAccount -->
-        <test-method signature="openAccount(java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenAccountTest@b965857]" started-at="2024-03-09T00:37:53Z" name="openAccount" data-provider="dp" finished-at="2024-03-09T00:37:59Z" duration-ms="6226" status="PASS">
+        <test-method signature="openAccount(java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenAccountTest@4ce14f05]" started-at="2024-03-09T18:49:41Z" name="openAccount" data-provider="dp" finished-at="2024-03-09T18:49:41Z" duration-ms="227" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -152,10 +280,56 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at testcases.OpenAccountTest.openAccount(OpenAccountTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[<a href=Sat_Mar_09_10_49_41_PST_2024.jpg target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=Sat_Mar_09_10_49_41_PST_2024.jpg target="_blank"><img src=Sat_Mar_09_10_49_41_PST_2024.jpg height=200 width=200></a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openAccount -->
-        <test-method signature="openAccount(java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenAccountTest@b965857]" started-at="2024-03-09T00:37:59Z" name="openAccount" data-provider="dp" finished-at="2024-03-09T00:38:05Z" duration-ms="6211" status="PASS">
+        <test-method signature="openAccount(java.lang.String, java.lang.String)[pri:0, instance:testcases.OpenAccountTest@4ce14f05]" started-at="2024-03-09T18:49:41Z" name="openAccount" data-provider="dp" finished-at="2024-03-09T18:49:42Z" duration-ms="286" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -168,10 +342,56 @@
               </value>
             </param>
           </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.fail(Assert.java:103)
+at testcases.OpenAccountTest.openAccount(OpenAccountTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[<a href=Sat_Mar_09_10_49_42_PST_2024.jpg target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=Sat_Mar_09_10_49_42_PST_2024.jpg target="_blank"><img src=Sat_Mar_09_10_49_42_PST_2024.jpg height=200 width=200></a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- openAccount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OpenAccountTest@b965857]" started-at="2024-03-09T00:38:05Z" name="tearDown" finished-at="2024-03-09T00:38:06Z" duration-ms="213" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.OpenAccountTest@4ce14f05]" started-at="2024-03-09T18:49:42Z" name="tearDown" finished-at="2024-03-09T18:49:42Z" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
