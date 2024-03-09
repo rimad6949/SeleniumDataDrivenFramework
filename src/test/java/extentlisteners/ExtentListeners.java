@@ -56,7 +56,7 @@ public class ExtentListeners implements ITestListener {
 		Reporter.log("<br>");
 		Reporter.log("<a href="+ScreenshotUtil.fileName+" target=\"_blank\"><img src="+ScreenshotUtil.fileName+" height=200 width=200></a>");
 		
-		String exceptionMessage=Arrays.toString(result.getThrowable().getStackTrace());
+		String exceptionMessage=result.getThrowable().getMessage();
 		test.fail(exceptionMessage);
 		
 		String methodName=result.getMethod().getMethodName();

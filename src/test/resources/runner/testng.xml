@@ -5,14 +5,23 @@
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 		<listener class-name="extentlisteners.ExtentListeners" />
 	</listeners>
-  <test name="BankManagerLoginTest">
-    <classes>
-      <class name="testcases.BankManagerLoginTest"/>
-    </classes>
-  </test> <!-- Test -->
-    <test name="AddCustomerTest">
-    <classes>
-      <class name="testcases.AddCustomerTest"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+	<test name="BankManagerLoginTest">
+		<classes>
+			<class name="testcases.BankManagerLoginTest" />
+		</classes>
+	</test> <!--
+	Test -->
+	<test name="AddCustomerTest">
+		<classes>
+			<class name="testcases.AddCustomerTest" />
+		</classes>
+	</test> <!--
+	Test -->
+	<test name="OpenAccountTest">
+		<classes>
+			<class name="testcases.OpenAccountTest" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

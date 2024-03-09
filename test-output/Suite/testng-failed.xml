@@ -5,26 +5,26 @@
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
     <listener class-name="extentlisteners.ExtentListeners"/>
   </listeners>
-  <test thread-count="5" name="BankManagerLoginTest(failed)">
-    <classes>
-      <class name="testcases.BankManagerLoginTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="clickOnBMLBtn"/>
-        </methods>
-      </class> <!-- testcases.BankManagerLoginTest -->
-    </classes>
-  </test> <!-- BankManagerLoginTest(failed) -->
   <test thread-count="5" name="AddCustomerTest(failed)">
     <classes>
       <class name="testcases.AddCustomerTest">
         <methods>
-          <include name="addCustomer" invocation-numbers="0 1 2 3"/>
+          <include name="addCustomer"/>
           <include name="tearDown"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testcases.AddCustomerTest -->
     </classes>
   </test> <!-- AddCustomerTest(failed) -->
+  <test thread-count="5" name="OpenAccountTest(failed)">
+    <classes>
+      <class name="testcases.OpenAccountTest">
+        <methods>
+          <include name="openAccount"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testcases.OpenAccountTest -->
+    </classes>
+  </test> <!-- OpenAccountTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
