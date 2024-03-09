@@ -10,9 +10,11 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
@@ -30,6 +32,7 @@ public class Basetest {
 	public static Logger log = LogManager.getLogger(Basetest.class.getName());
 	public static ExcelReader excel = new ExcelReader("/Users/rimadas/git/SeleniumDataDrivenFramework/src/test/resources/excel/testdata.xlsx");
 	public static ChromeOptions ops = new ChromeOptions();
+	public static WebElement dropdown;
     
 	
 	@BeforeSuite
@@ -93,6 +96,24 @@ public class Basetest {
 		log.info("Clicking on the element : " + key);
 		ExtentListeners.test.log(Status.INFO, "Clicking on the element : " + key);
 			
+	}
+	
+	public void select(String key, String value) {
+		if(key.endsWith("_CSS")) {
+			dropdown = driver.findElement(By.cssSelector(OR.getProperty(key)));
+		}
+		else if(key.endsWith("_XPATH")) {
+			dropdown = driver.findElement(By.xpath(OR.getProperty(key)));
+		}
+		else if(key.endsWith("_ID")) {
+			dropdown =  driver.findElement(By.id(OR.getProperty(key)));
+		}
+		
+		Select select = new Select(dropdown);
+		select.selectByVisibleText(value);
+		
+		log.info("Selecting the element : " + key + " and selecting the value : "+value);
+		ExtentListeners.test.log(Status.INFO, "Selecting the element : " + key + " and selecting the value : "+value);
 	}
 	
 	public void type(String key, String value) {

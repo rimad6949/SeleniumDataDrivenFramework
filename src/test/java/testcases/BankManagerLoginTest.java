@@ -8,12 +8,12 @@ import base.Basetest;
 public class BankManagerLoginTest extends Basetest{
 	
 	@Test
-	public void clickOnBMLBtn() {
+	public void clickOnBMLBtn() throws InterruptedException {
 		
 		click("bmlBtn_CSS");
 		log.info("Clicking on the Bank Manager Login Button");
-		Assert.assertEquals(isElementPresent("addCustBtn_CSS"), "Not logged in as Bank Manager");
-		
+		Assert.assertTrue(isElementPresent("addCustBtn_CSS"), "Not logged in as Bank Manager");
+		Thread.sleep(2000);
 	}
 
 }

@@ -22,7 +22,7 @@ public class DataUtil extends Basetest{
 		
 		//rowCount-1 because the 1st row are the labels of columns
 		//Object[][] data = new Object[4][3];
-		Object[][] data = new Object[rowCount-1][colCount];
+		 Object[][] data = new Object[rowCount-1][colCount];
 		
 		//rows=2 because the count needs to start from row 2 as 1st row is labels
 		for(int rows=2; rows<=rowCount; rows++) {
