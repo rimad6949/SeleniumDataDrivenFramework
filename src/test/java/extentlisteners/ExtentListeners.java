@@ -1,5 +1,6 @@
 package extentlisteners;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -50,28 +51,36 @@ public class ExtentListeners implements ITestListener {
 
 	public void onTestFailure(ITestResult result) 
 	{
+		String exceptionMessage=result.getThrowable().getMessage();
+		test.fail(exceptionMessage);
+		
 		ScreenshotUtil.captureScreenshot();
+		
+		
 		System.setProperty("org.uncommons.reportng.escape-output","false");
 		Reporter.log("<a href="+ScreenshotUtil.fileName+" target=\"_blank\">Screenshot link</a>");
 		Reporter.log("<br>");
 		Reporter.log("<a href="+ScreenshotUtil.fileName+" target=\"_blank\"><img src="+ScreenshotUtil.fileName+" height=200 width=200></a>");
 		
-		String exceptionMessage=result.getThrowable().getMessage();
-		test.fail(exceptionMessage);
+		String excepionMessage = Arrays.toString(result.getThrowable().getStackTrace());
+		test.fail(excepionMessage);
 		
 		String methodName=result.getMethod().getMethodName();
 		String logText="<b>"+"TEST CASE:- "+ methodName.toUpperCase()+ " FAILED"+"</b>";	
 		
-		String screenshot = ScreenshotUtil.fileName;
-		test.fail("<b><font color=red>" + "Screenshot of failure" + "</font></b><br>",
-				MediaEntityBuilder.createScreenCaptureFromPath(screenshot)
-				.build());
-		String failureLog="TEST CASE FAILED";
+		try {
+			String screenshot = ScreenshotUtil.fileName;
+			test.fail("<b><font color=red>" + "Screenshot of failure" + "</font></b><br>",
+					MediaEntityBuilder.createScreenCaptureFromPath(screenshot)
+					.build());
+		}
+		catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		
-		Markup m = MarkupHelper.createLabel(failureLog, ExtentColor.RED);
-		test.log(Status.FAIL, m);
-
-		
+		Markup m = MarkupHelper.createLabel(logText, ExtentColor.RED);
+		test.log(Status.FAIL, m);		
 
 	}
 
