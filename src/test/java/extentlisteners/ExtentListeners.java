@@ -56,11 +56,12 @@ public class ExtentListeners implements ITestListener {
 		
 		ScreenshotUtil.captureScreenshot();
 		
-		
+		//This is added for reportNG
 		System.setProperty("org.uncommons.reportng.escape-output","false");
 		Reporter.log("<a href="+ScreenshotUtil.fileName+" target=\"_blank\">Screenshot link</a>");
 		Reporter.log("<br>");
 		Reporter.log("<a href="+ScreenshotUtil.fileName+" target=\"_blank\"><img src="+ScreenshotUtil.fileName+" height=200 width=200></a>");
+		/////
 		
 		String excepionMessage = Arrays.toString(result.getThrowable().getStackTrace());
 		test.fail(excepionMessage);
