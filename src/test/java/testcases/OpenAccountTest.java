@@ -23,8 +23,7 @@ public class OpenAccountTest extends Basetest{
 		Alert alert = driver.switchTo().alert();
 		Assert.assertTrue(alert.getText().contains("Account created successfully"),"Account not created successfully");
 		alert.accept();
-		
-		Assert.fail();
+
 	}
 
 }
