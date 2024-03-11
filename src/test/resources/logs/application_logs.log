@@ -2102,3 +2102,248 @@ java.lang.ClassNotFoundException: org.apache.xerces.util.SecurityManager
 2024-03-10 22:43:08 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Rupee
 2024-03-10 22:43:09 [main] INFO  base.Basetest - Clicking on the element : process_CSS
 2024-03-10 22:43:09 [main] INFO  base.Basetest - Closing the Browser
+2024-03-11 13:24:10 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-11 13:24:13 [main] INFO  base.Basetest - Clicking on the element : bmlBtn_CSS
+2024-03-11 13:24:13 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-11 13:24:13 [main] INFO  base.Basetest - Find an element : addCustBtn_CSS
+2024-03-11 13:24:16 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 13:24:16 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 13:24:16 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Kaira
+2024-03-11 13:24:16 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Advani
+2024-03-11 13:24:16 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 98980.0
+2024-03-11 13:24:16 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 13:24:16 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 13:24:16 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 13:24:16 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Vicky
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kaushal
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 7879.0
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Ranbir
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kapoor
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 87879.0
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Shahid
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kapoor
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 79808.0
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 13:24:17 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Kaira Advani
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Dollar
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Vicky Kaushal
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Dollar
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Ranbir Kapoor
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Rupee
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 13:24:18 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 13:24:19 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Shahid Kapoor
+2024-03-11 13:24:19 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Rupee
+2024-03-11 13:24:19 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 13:24:19 [main] INFO  base.Basetest - Closing the Browser
+2024-03-11 13:26:57 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-11 13:27:00 [main] INFO  base.Basetest - Clicking on the element : bmlBtn_CSS
+2024-03-11 13:27:00 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-11 13:27:00 [main] INFO  base.Basetest - Find an element : addCustBtn_CSS
+2024-03-11 13:27:03 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 13:27:03 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 13:27:04 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Kaira
+2024-03-11 13:27:04 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Advani
+2024-03-11 13:27:04 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 98980.0
+2024-03-11 13:27:04 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 13:27:04 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 13:27:04 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 13:27:04 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Vicky
+2024-03-11 13:27:04 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kaushal
+2024-03-11 13:27:04 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 7879.0
+2024-03-11 13:27:04 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 13:27:04 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 13:27:05 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 13:27:05 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Ranbir
+2024-03-11 13:27:05 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kapoor
+2024-03-11 13:27:05 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 87879.0
+2024-03-11 13:27:05 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 13:27:05 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 13:27:05 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 13:27:05 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Shahid
+2024-03-11 13:27:05 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kapoor
+2024-03-11 13:27:05 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 79808.0
+2024-03-11 13:27:05 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 13:27:05 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 13:27:05 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 13:27:06 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Kaira Advani
+2024-03-11 13:27:06 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Dollar
+2024-03-11 13:27:06 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 13:27:06 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 13:27:06 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 13:27:06 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Vicky Kaushal
+2024-03-11 13:27:06 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Dollar
+2024-03-11 13:27:06 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 13:27:06 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 13:27:06 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 13:27:06 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Ranbir Kapoor
+2024-03-11 13:27:07 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Rupee
+2024-03-11 13:27:07 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 13:27:07 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 13:27:07 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 13:27:07 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Shahid Kapoor
+2024-03-11 13:27:07 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Rupee
+2024-03-11 13:27:07 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 13:27:08 [main] INFO  base.Basetest - Closing the Browser
+2024-03-11 15:29:05 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-11 15:29:08 [main] INFO  base.Basetest - Clicking on the element : bmlBtn_CSS
+2024-03-11 15:29:08 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-11 15:29:08 [main] INFO  base.Basetest - Find an element : addCustBtn_CSS
+2024-03-11 15:29:11 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 15:29:11 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 15:29:11 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Kaira
+2024-03-11 15:29:11 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Advani
+2024-03-11 15:29:11 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 98980.0
+2024-03-11 15:29:11 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 15:29:11 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 15:29:11 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 15:29:11 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Vicky
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kaushal
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 7879.0
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Ranbir
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kapoor
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 87879.0
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Shahid
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kapoor
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 79808.0
+2024-03-11 15:29:12 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 15:29:13 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 15:29:13 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 15:29:13 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Kaira Advani
+2024-03-11 15:29:13 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Dollar
+2024-03-11 15:29:13 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 15:29:13 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 15:29:13 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 15:29:13 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Vicky Kaushal
+2024-03-11 15:29:13 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Dollar
+2024-03-11 15:29:13 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 15:29:13 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 15:29:13 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 15:29:14 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Ranbir Kapoor
+2024-03-11 15:29:14 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Rupee
+2024-03-11 15:29:14 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 15:29:14 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 15:29:14 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 15:29:14 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Shahid Kapoor
+2024-03-11 15:29:14 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Rupee
+2024-03-11 15:29:14 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 15:29:14 [main] INFO  base.Basetest - Closing the Browser
+2024-03-11 15:36:30 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-11 15:36:32 [main] INFO  base.Basetest - Clicking on the element : bmlBtn_CSS
+2024-03-11 15:36:32 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-11 15:36:33 [main] INFO  base.Basetest - Find an element : addCustBtn_CSS
+2024-03-11 15:36:35 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 15:36:35 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 15:36:36 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Kaira
+2024-03-11 15:36:36 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Advani
+2024-03-11 15:36:36 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 98980.0
+2024-03-11 15:36:36 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 15:36:36 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 15:36:36 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 15:36:36 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Vicky
+2024-03-11 15:36:36 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kaushal
+2024-03-11 15:36:36 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 7879.0
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Ranbir
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kapoor
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 87879.0
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Shahid
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kapoor
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 79808.0
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 15:36:37 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 15:36:38 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Kaira Advani
+2024-03-11 15:36:38 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Dollar
+2024-03-11 15:36:38 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 15:36:38 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 15:36:38 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 15:36:38 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Vicky Kaushal
+2024-03-11 15:36:38 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Dollar
+2024-03-11 15:36:38 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 15:36:38 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 15:36:38 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 15:36:38 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Ranbir Kapoor
+2024-03-11 15:36:38 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Rupee
+2024-03-11 15:36:38 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 15:36:39 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 15:36:39 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 15:36:39 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Shahid Kapoor
+2024-03-11 15:36:39 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Rupee
+2024-03-11 15:36:39 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 15:36:39 [main] INFO  base.Basetest - Closing the Browser
+2024-03-11 15:40:07 [main] INFO  base.Basetest - Launching the Chrome Browser
+2024-03-11 15:40:10 [main] INFO  base.Basetest - Clicking on the element : bmlBtn_CSS
+2024-03-11 15:40:10 [main] INFO  base.Basetest - Clicking on the Bank Manager Login Button
+2024-03-11 15:40:11 [main] INFO  base.Basetest - Find an element : addCustBtn_CSS
+2024-03-11 15:40:13 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 15:40:13 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 15:40:13 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Kaira
+2024-03-11 15:40:13 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Advani
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 98980.0
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Vicky
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kaushal
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 7879.0
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Ranbir
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kapoor
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 87879.0
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : addCustBtn_CSS
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the Add Customer button
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : firstName_CSS and entering value : Shahid
+2024-03-11 15:40:14 [main] INFO  base.Basetest - Clicking on the element : lastName_CSS and entering value : Kapoor
+2024-03-11 15:40:15 [main] INFO  base.Basetest - Clicking on the element : postCode_CSS and entering value : 79808.0
+2024-03-11 15:40:15 [main] INFO  base.Basetest - Clicking on the element : addBtn_CSS
+2024-03-11 15:40:15 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 15:40:15 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 15:40:15 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Kaira Advani
+2024-03-11 15:40:15 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Dollar
+2024-03-11 15:40:15 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 15:40:15 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 15:40:15 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 15:40:15 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Vicky Kaushal
+2024-03-11 15:40:15 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Dollar
+2024-03-11 15:40:16 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 15:40:16 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 15:40:16 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 15:40:16 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Ranbir Kapoor
+2024-03-11 15:40:16 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Rupee
+2024-03-11 15:40:16 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 15:40:16 [main] INFO  base.Basetest - Clicking on Open Account
+2024-03-11 15:40:16 [main] INFO  base.Basetest - Clicking on the element : openAccBtn_CSS
+2024-03-11 15:40:16 [main] INFO  base.Basetest - Selecting the element : customer_CSS and selecting the value : Shahid Kapoor
+2024-03-11 15:40:16 [main] INFO  base.Basetest - Selecting the element : currency_CSS and selecting the value : Rupee
+2024-03-11 15:40:16 [main] INFO  base.Basetest - Clicking on the element : process_CSS
+2024-03-11 15:40:16 [main] INFO  base.Basetest - Closing the Browser
